@@ -1,0 +1,80 @@
+body {
+  font-family: "permanent marker" , cursive;
+  text-align: center;
+  background-color: rgb(245, 237, 226);
+}
+
+.table1{
+  width: 100% !important;
+  height: auto;
+  
+}
+
+#custom{
+  background-color: #000000 !important;
+  color: white !important;
+}
+
+#custom:hover{
+  background-color: rgb(102, 92, 3) !important;
+  color: white !important;
+}
+
+button {
+  display: block !important;
+  width: 80% !important;
+  margin: 0 auto !important;
+  padding: 8px 12px !important;
+  font-size: 16px !important;
+  background-color: #000000;
+  color: white;
+  border: none !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+}
+
+button:hover {
+  background-color: rgb(102, 92, 3);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* সবকিছু center হবে */
+  }
+
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  table {
+    width: 100% !important;
+    font-size: 14px;
+  }
+
+  button {
+    width: 80%;
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-item {
+    flex: 1 1 45%;
+    margin: 5px;
+  }
+}
+
